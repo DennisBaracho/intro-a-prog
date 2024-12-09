@@ -1,0 +1,1 @@
+"""Faça um algoritmo que calcula e escreve o valor de S para as equações abaixo:"""
