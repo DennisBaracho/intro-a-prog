@@ -3,11 +3,11 @@ iterativas while, repeat-until e/ou for."""
 
 num = int(input("Digite um numero para calcular o fatorial: "))
 contador = 0
-produto = 1
+fatorial = 1
 
 while(contador != num):
     contador += 1
-    produto *= contador
+    fatorial *= contador
     print(contador, end=" ")
 
-print(f"Produto: {produto}")
+print(f"Fatorial: {fatorial}")
