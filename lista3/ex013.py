@@ -6,7 +6,7 @@ s = 0
 numerador = 1
 denominador = 1
 
-while(numerador != 99):
+while(denominador <= 50):
     s += numerador/denominador
     numerador += 2
     denominador += 1
@@ -14,11 +14,11 @@ print(f"Para A, o valor de S eh: {s}")
 
 s = 0
 expoente = 1
-numerador = 2**expoente
+numerador = 2
 denominador = 50
 
 while(expoente != 50):
-    s += numerador/denominador
+    s += (numerador**expoente)/denominador
     expoente += 1
     denominador -= 1
 print(f"Para B, o valor de S eh: {s}")

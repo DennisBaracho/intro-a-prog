@@ -12,8 +12,8 @@ while(contador != n):
     contador += 1
     if num == x:
         aparece = 1
-
+        posicao = contador 
 if aparece == 1:    
-    print("O elemento x aparece entre os numeros lidos!")
+    print(f"O elemento x aparece entre os numeros lidos, na posicao {posicao}!")
 else:
     print("O elemento x nao aparece entre os numeros lidos!")

@@ -19,7 +19,7 @@ contador = num1
 
 print("\nb. Todos os numeros impares em [a,b]:", end=" ")
 while(contador <= num2):
-    if(contador % 2 == 0):
+    if(contador % 2 != 0):
         print(contador, end=" ")
     contador += 1
 
@@ -27,6 +27,6 @@ contador = num1
 
 print("\nc. Todos os numeros impares em [a,b] e multiplos de 3:", end=" ")
 while(contador <= num2):
-    if(contador % 2 == 0) and (contador % 3 == 0):
+    if(contador % 2 != 0) and (contador % 3 == 0):
         print(contador, end=" ")
     contador += 1
